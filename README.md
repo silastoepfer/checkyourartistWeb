@@ -25,6 +25,6 @@ darkish green:
 #1d841e
 
 light grey (general background):
-#545147
+#262520
 
 ->> ADD consistent colours
