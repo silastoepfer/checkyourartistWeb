@@ -29,6 +29,7 @@ body {
 .album-name {
     position: relative;
     bottom: 20px;
+    color: #abd8ab;
 }
 
 .nav {
@@ -53,5 +54,18 @@ body {
 
 .search-input {
     border: none;
-    width: 42%;
+    width: 90%;
+}
+
+.spotify {
+    margin-top: 90px;
+    color:  #abd8ab;
+    text-align: right;
+}
+
+.spotify-img {
+    width: 25px;
+    height: auto;
+    position: relative;
+    bottom: 2px;
 }

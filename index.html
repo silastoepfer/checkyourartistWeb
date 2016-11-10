@@ -14,16 +14,17 @@
     <!-- main body of our application -->
     <div class="container" id="events">
     <!-- search -->
-    <div class="container search-form">
+    <div class="container search-form col-md-6">
         <h1>Search for an Artist or Album</h1>
         <form id="search-form">
             <input type="text" id="query" value="" class="form-control search-input" placeholder="Type an Artist Name"/>
              <p>Click on the Cover to get a 30 second audio of the selected Artist</p>
             <input type="submit" id="search" class="btn btn-primary search-button" value="Search" />
         </form>
-    <!-- result section -->
-        <div id="results"></div>
     </div>
+    <div class="container spotify col-md-6">Powered by Spotify <img class="spotify-img" src="img/spotify.png"><div>
+    <!-- result section -->
+    <div id="results" class="col-md-12"></div>
     <script id="results-template" type="text/x-handlebars-template">
         {{#each albums.items}}
         <div style="background-image:url({{images.0.url}})" data-album-id="{{id}}" class="cover">
