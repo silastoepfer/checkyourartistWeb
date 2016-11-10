@@ -1,6 +1,6 @@
 body {
     padding: 20px;
-    background-color: #545147;
+    background-color: #262520;
     height: 100%;
     width: 100%;
 }
@@ -23,7 +23,7 @@ body {
     cursor: pointer;
 }
 .cover.playing {
-    border: 5px solid #1d841e;
+    border: 2px solid #abd8ab;
 }
 
 .album-name {
@@ -37,14 +37,21 @@ body {
 }
 .search-form {
 	color: #abd8ab;
+    margin-top: 50px;
 }
 
 .search-button {
 	background-color: #abd8ab;
 	color: #545147;
 	border: none;
+    margin-top: 10px;
 }
 .search-button:hover {
 	background-color: #c0eac1;
 	color: #545147;
+}
+
+.search-input {
+    border: none;
+    width: 42%;
 }
