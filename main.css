@@ -24,3 +24,16 @@ body {
 	background-color: #262520;
 	color: #ffffff;
 }
+.search-form {
+	color: #abd8ab;
+}
+
+.search-button {
+	background-color: #abd8ab;
+	color: #545147;
+	border: none;
+}
+.search-button:hover {
+	background-color: #c0eac1;
+	color: #545147;
+}
