@@ -20,18 +20,8 @@
             url: 'https://api.spotify.com/v1/search',
             data: {
                 q: query,
-                type: 'album'
-            },
-            success: function (response) {
-                resultsPlaceholder.innerHTML = template(response);
-            }
-        });
-
-        $.ajax({
-            url: 'http://api.deezer.com/search',
-            data: {
-                q: query,
-                type: 'album'
+                type: 'album',
+                release_date: '1983'
             },
             success: function (response) {
                 resultsPlaceholder.innerHTML = template(response);
